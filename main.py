@@ -4,6 +4,7 @@ from src.chart import salary_chart, skill_chart
 from src.analysis import highest_salary 
 from src.report import generate_report
 from src.location_chart import location_chart
+from src.ai_matcher import ai_matcher
 
 jobs = load_jobs()
 if jobs.empty:
@@ -18,7 +19,8 @@ while True:
     print("5. Highest Salary Job")
     print("6. Generate Report")
     print("7. Location Chart")
-    print("8. Exit")
+    print("8. AI Resume Matcher")
+    print("9. Exit")
 
     choice = input("Enter your choice: ")
 
@@ -45,6 +47,9 @@ while True:
         location_chart(jobs)
 
     elif choice == "8":
+        ai_matcher(jobs)
+
+    elif choice == "9":
         print("Thank You!")
         break
 

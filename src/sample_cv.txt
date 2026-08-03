@@ -1,0 +1,21 @@
+SALONI JOSHI
+
+Skills:
+Python
+Pandas
+NumPy
+Matplotlib
+Git
+GitHub
+SQL
+Data Analysis
+Machine Learning
+
+Projects:
+Job Market Analyzer using Python
+
+Education:
+B.Tech CSE
+
+Experience:
+Fresher
