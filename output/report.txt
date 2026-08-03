@@ -1,0 +1,16 @@
+===== JOB MARKET REPORT =====
+
+Total Jobs: 220
+
+Top 10 Jobs:
+------------------------------------------------------------
+Data Scientist | Wipro | Gurugram | 1150000
+AI Engineer | HCL | Gurugram | 1600000
+Software Engineer | Accenture | Pune | 1250000
+Data Scientist | Accenture | Delhi | 1100000
+Machine Learning Engineer | Cognizant | Noida | 950000
+Machine Learning Engineer | Wipro | Delhi | 950000
+Machine Learning Engineer | Capgemini | Bangalore | 1450000
+Software Engineer | TCS | Hyderabad | 500000
+Data Analyst | HCL | Pune | 800000
+AI Engineer | Wipro | Noida | 1300000

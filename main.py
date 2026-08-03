@@ -2,8 +2,12 @@ from src.loader import load_jobs
 from src.search import search_by_skill
 from src.chart import salary_chart, skill_chart
 from src.analysis import highest_salary 
+from src.report import generate_report
+from src.location_chart import location_chart
 
 jobs = load_jobs()
+if jobs.empty:
+    exit()
 
 while True:
     print("\n===== JOB MARKET ANALYZER =====")
@@ -12,7 +16,9 @@ while True:
     print("3. Salary Chart")
     print("4. Top Skills Chart")
     print("5. Highest Salary Job")
-    print("6. Exit")
+    print("6. Generate Report")
+    print("7. Location Chart")
+    print("8. Exit")
 
     choice = input("Enter your choice: ")
 
@@ -33,6 +39,12 @@ while True:
         highest_salary(jobs)
 
     elif choice == "6":
+        generate_report(jobs)
+
+    elif choice == "7":
+        location_chart(jobs)
+
+    elif choice == "8":
         print("Thank You!")
         break
 
